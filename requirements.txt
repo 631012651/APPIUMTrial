@@ -1,0 +1,6 @@
+Appium-Python-Client==1.0.2
+html-testRunner==1.2.1
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+selenium==3.141.0
+urllib3==1.25.10
