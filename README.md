@@ -1,11 +1,88 @@
-APPIUM实战
+                                                PC端自动化测试
+--Selenium实战
+一、环境准备
+安装selenium 
+	Pip install selenium
+安装selenium IDE
+安装chromedriver
+
+二、编写测试用例
+ 以百度测试为例
+打开IDE录制脚本
+在浏览器右上角，找到selenium IDE的图标，单击打开。如图所示：
+ 
+　2、我们就选择第一种方式来讲，如图：
+ 
+　输入要录制Web的地址，我这里输入的是百度，如图：
+ 
+点击开始录制，插件会直接启动一个谷歌浏览器的页面，并且打开你输入的百度地址，如图
+ 
+这样就录制完成了，点击右上角的红色圆点，然后输入测试用例名称，如图：
+ 
+　右击测试用例，选择导出按钮，如图：
+ 
+选择你喜欢的语言，单机导出按钮，如图：
+ 
+断言
+　　通过使用上下文菜单添加验证和断言。（Adding Verifications and Asserts With the Context Menu）
+　　如何添加断言呢？在你录制脚本的时候（红色原点变成红色正方形），在页面上的任何地方单击鼠标右键。您将看到一个显示验证和/或断言命令的上下文菜单。
+ 
+插入命令（Insert Command）
+　　上面那种断言是在录制中的时候使用，你也可以录制后，手动添加断言，这样使用的插入命令方式进行，如图：
+ 
+
+
+
+ 
+三、修改脚本
+引入unittest、time
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+import time
+import unittest
+
+
+
+class TestSearchForSelenium(unittest.TestCase):
+
+    def setUp(self):
+        self.driver = webdriver.Chrome()
+
+    def test_baidu(self):
+        url = 'https://www.baidu.com'
+        self.driver.get(url)
+        self.driver.set_window_size(1167, 692)
+        #time.sleep(5)
+        self.driver.implicitly_wait(10)
+        self.driver.find_element(By.ID, "kw").click()
+        self.driver.find_element(By.ID, "kw").send_keys("selenium")
+        self.driver.find_element(By.ID, "kw").send_keys(Keys.ENTER)
+        time.sleep(3)
+        assert self.driver.title == "selenium_百度搜索"
+
+    def tearDown(self):
+        time.sleep(5)
+        self.driver.quit()
+
+if __name__ == "__main__":
+
+    unittest.main()
+
+
+
+
+
+
+                                APPIUM实战
 一、	环境准备：
-?	安装Python3
-?	安装Python3的Appium库
-?	安装Android SDK
-?	安装JDK
-?	安装Appium
-?	安装模拟器MUMU
+	安装Python3
+	安装Python3的Appium库
+	安装Android SDK
+	安装JDK
+	安装Appium
+	安装模拟器MUMU
 二、	模拟器测试
 连接模拟器：
 adb connect 127.0.0.1:7555
