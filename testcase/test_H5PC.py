@@ -6,29 +6,46 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 import unittest
-
+from selenium.webdriver.common import desired_capabilities
 
 
 class TestSearchForSelenium(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome()
+        pass
 
     def test_baidu(self):
-        url = 'https://www.baidu.com'
-        self.driver.get(url)
-        self.driver.set_window_size(1167, 692)
+        lists = {
+            'http://localhost:8888/wd/hub':'chrome',
+            'http://localhost:9999/wd/hub':'firefox'
+        }
+        for host, browser in lists.items():
+        #通过不同的浏览器执行脚本
+            print(host,browser)
+            self.driver = webdriver.Remote(
+                command_executor=host,
+                desired_capabilities = {
+                    'platform':'ANY',
+                    'browserName':browser ,
+                    'javascriptEnabled':True
+                }
+             )
+            url = 'https://www.baidu.com'
+            self.driver.get(url)
+            self.driver.set_window_size(1167, 692)
         #time.sleep(5)
-        self.driver.implicitly_wait(10)
-        self.driver.find_element(By.ID, "kw").click()
-        self.driver.find_element(By.ID, "kw").send_keys("selenium")
-        self.driver.find_element(By.ID, "kw").send_keys(Keys.ENTER)
-        time.sleep(3)
-        assert self.driver.title == "selenium_百度搜索"
+            self.driver.implicitly_wait(10)
+            self.driver.find_element(By.ID, "kw").click()
+            self.driver.find_element(By.ID, "kw").send_keys("selenium")
+            self.driver.find_element(By.ID, "kw").send_keys(Keys.ENTER)
+            time.sleep(1)
+            assert self.driver.title == "selenium_百度搜索"
+            time.sleep(2)
+            self.driver.close()
 
     def tearDown(self):
-        time.sleep(5)
-        self.driver.quit()
+        #time.sleep(5)
+        pass
 
 if __name__ == "__main__":
 
