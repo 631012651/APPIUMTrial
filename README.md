@@ -1,41 +1,43 @@
-                                                PC¶Ë×Ô¶¯»¯²âÊÔ
---SeleniumÊµÕ½
-Ò»¡¢»·¾³×¼±¸
-°²×°selenium 
+                                                PCç«¯è‡ªåŠ¨åŒ–æµ‹è¯•
+                                                              --Seleniumå®æˆ˜
+
+
+ä¸€ã€ç¯å¢ƒå‡†å¤‡
+å®‰è£…selenium 
 	Pip install selenium
-°²×°selenium IDE
-°²×°chromedriver
+å®‰è£…selenium IDE
+å®‰è£…chromedriver
 
-¶ş¡¢±àĞ´²âÊÔÓÃÀı
- ÒÔ°Ù¶È²âÊÔÎªÀı
-´ò¿ªIDEÂ¼ÖÆ½Å±¾
-ÔÚä¯ÀÀÆ÷ÓÒÉÏ½Ç£¬ÕÒµ½selenium IDEµÄÍ¼±ê£¬µ¥»÷´ò¿ª¡£ÈçÍ¼ËùÊ¾£º
+äºŒã€ç¼–å†™æµ‹è¯•ç”¨ä¾‹
+ ä»¥ç™¾åº¦æµ‹è¯•ä¸ºä¾‹
+æ‰“å¼€IDEå½•åˆ¶è„šæœ¬
+åœ¨æµè§ˆå™¨å³ä¸Šè§’ï¼Œæ‰¾åˆ°selenium IDEçš„å›¾æ ‡ï¼Œå•å‡»æ‰“å¼€ã€‚å¦‚å›¾æ‰€ç¤ºï¼š
  
-¡¡2¡¢ÎÒÃÇ¾ÍÑ¡ÔñµÚÒ»ÖÖ·½Ê½À´½²£¬ÈçÍ¼£º
+ã€€2ã€æˆ‘ä»¬å°±é€‰æ‹©ç¬¬ä¸€ç§æ–¹å¼æ¥è®²ï¼Œå¦‚å›¾ï¼š
  
-¡¡ÊäÈëÒªÂ¼ÖÆWebµÄµØÖ·£¬ÎÒÕâÀïÊäÈëµÄÊÇ°Ù¶È£¬ÈçÍ¼£º
+ã€€è¾“å…¥è¦å½•åˆ¶Webçš„åœ°å€ï¼Œæˆ‘è¿™é‡Œè¾“å…¥çš„æ˜¯ç™¾åº¦ï¼Œå¦‚å›¾ï¼š
  
-µã»÷¿ªÊ¼Â¼ÖÆ£¬²å¼ş»áÖ±½ÓÆô¶¯Ò»¸ö¹È¸èä¯ÀÀÆ÷µÄÒ³Ãæ£¬²¢ÇÒ´ò¿ªÄãÊäÈëµÄ°Ù¶ÈµØÖ·£¬ÈçÍ¼
+ç‚¹å‡»å¼€å§‹å½•åˆ¶ï¼Œæ’ä»¶ä¼šç›´æ¥å¯åŠ¨ä¸€ä¸ªè°·æ­Œæµè§ˆå™¨çš„é¡µé¢ï¼Œå¹¶ä¸”æ‰“å¼€ä½ è¾“å…¥çš„ç™¾åº¦åœ°å€ï¼Œå¦‚å›¾
  
-ÕâÑù¾ÍÂ¼ÖÆÍê³ÉÁË£¬µã»÷ÓÒÉÏ½ÇµÄºìÉ«Ô²µã£¬È»ºóÊäÈë²âÊÔÓÃÀıÃû³Æ£¬ÈçÍ¼£º
+è¿™æ ·å°±å½•åˆ¶å®Œæˆäº†ï¼Œç‚¹å‡»å³ä¸Šè§’çš„çº¢è‰²åœ†ç‚¹ï¼Œç„¶åè¾“å…¥æµ‹è¯•ç”¨ä¾‹åç§°ï¼Œå¦‚å›¾ï¼š
  
-¡¡ÓÒ»÷²âÊÔÓÃÀı£¬Ñ¡Ôñµ¼³ö°´Å¥£¬ÈçÍ¼£º
+ã€€å³å‡»æµ‹è¯•ç”¨ä¾‹ï¼Œé€‰æ‹©å¯¼å‡ºæŒ‰é’®ï¼Œå¦‚å›¾ï¼š
  
-Ñ¡ÔñÄãÏ²»¶µÄÓïÑÔ£¬µ¥»úµ¼³ö°´Å¥£¬ÈçÍ¼£º
+é€‰æ‹©ä½ å–œæ¬¢çš„è¯­è¨€ï¼Œå•æœºå¯¼å‡ºæŒ‰é’®ï¼Œå¦‚å›¾ï¼š
  
-¶ÏÑÔ
-¡¡¡¡Í¨¹ıÊ¹ÓÃÉÏÏÂÎÄ²Ëµ¥Ìí¼ÓÑéÖ¤ºÍ¶ÏÑÔ¡££¨Adding Verifications and Asserts With the Context Menu£©
-¡¡¡¡ÈçºÎÌí¼Ó¶ÏÑÔÄØ£¿ÔÚÄãÂ¼ÖÆ½Å±¾µÄÊ±ºò£¨ºìÉ«Ô­µã±ä³ÉºìÉ«Õı·½ĞÎ£©£¬ÔÚÒ³ÃæÉÏµÄÈÎºÎµØ·½µ¥»÷Êó±êÓÒ¼ü¡£Äú½«¿´µ½Ò»¸öÏÔÊ¾ÑéÖ¤ºÍ/»ò¶ÏÑÔÃüÁîµÄÉÏÏÂÎÄ²Ëµ¥¡£
+æ–­è¨€
+ã€€ã€€é€šè¿‡ä½¿ç”¨ä¸Šä¸‹æ–‡èœå•æ·»åŠ éªŒè¯å’Œæ–­è¨€ã€‚ï¼ˆAdding Verifications and Asserts With the Context Menuï¼‰
+ã€€ã€€å¦‚ä½•æ·»åŠ æ–­è¨€å‘¢ï¼Ÿåœ¨ä½ å½•åˆ¶è„šæœ¬çš„æ—¶å€™ï¼ˆçº¢è‰²åŸç‚¹å˜æˆçº¢è‰²æ­£æ–¹å½¢ï¼‰ï¼Œåœ¨é¡µé¢ä¸Šçš„ä»»ä½•åœ°æ–¹å•å‡»é¼ æ ‡å³é”®ã€‚æ‚¨å°†çœ‹åˆ°ä¸€ä¸ªæ˜¾ç¤ºéªŒè¯å’Œ/æˆ–æ–­è¨€å‘½ä»¤çš„ä¸Šä¸‹æ–‡èœå•ã€‚
  
-²åÈëÃüÁî£¨Insert Command£©
-¡¡¡¡ÉÏÃæÄÇÖÖ¶ÏÑÔÊÇÔÚÂ¼ÖÆÖĞµÄÊ±ºòÊ¹ÓÃ£¬ÄãÒ²¿ÉÒÔÂ¼ÖÆºó£¬ÊÖ¶¯Ìí¼Ó¶ÏÑÔ£¬ÕâÑùÊ¹ÓÃµÄ²åÈëÃüÁî·½Ê½½øĞĞ£¬ÈçÍ¼£º
+æ’å…¥å‘½ä»¤ï¼ˆInsert Commandï¼‰
+ã€€ã€€ä¸Šé¢é‚£ç§æ–­è¨€æ˜¯åœ¨å½•åˆ¶ä¸­çš„æ—¶å€™ä½¿ç”¨ï¼Œä½ ä¹Ÿå¯ä»¥å½•åˆ¶åï¼Œæ‰‹åŠ¨æ·»åŠ æ–­è¨€ï¼Œè¿™æ ·ä½¿ç”¨çš„æ’å…¥å‘½ä»¤æ–¹å¼è¿›è¡Œï¼Œå¦‚å›¾ï¼š
  
 
 
 
  
-Èı¡¢ĞŞ¸Ä½Å±¾
-ÒıÈëunittest¡¢time
+ä¸‰ã€ä¿®æ”¹è„šæœ¬
+å¼•å…¥unittestã€time
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -60,7 +62,7 @@ class TestSearchForSelenium(unittest.TestCase):
         self.driver.find_element(By.ID, "kw").send_keys("selenium")
         self.driver.find_element(By.ID, "kw").send_keys(Keys.ENTER)
         time.sleep(3)
-        assert self.driver.title == "selenium_°Ù¶ÈËÑË÷"
+        assert self.driver.title == "selenium_ç™¾åº¦æœç´¢"
 
     def tearDown(self):
         time.sleep(5)
@@ -75,35 +77,35 @@ if __name__ == "__main__":
 
 
 
-                                APPIUMÊµÕ½
-Ò»¡¢	»·¾³×¼±¸£º
-	°²×°Python3
-	°²×°Python3µÄAppium¿â
-	°²×°Android SDK
-	°²×°JDK
-	°²×°Appium
-	°²×°Ä£ÄâÆ÷MUMU
-¶ş¡¢	Ä£ÄâÆ÷²âÊÔ
-Á¬½ÓÄ£ÄâÆ÷£º
+                                APPIUMå®æˆ˜
+ä¸€ã€	ç¯å¢ƒå‡†å¤‡ï¼š
+	å®‰è£…Python3
+	å®‰è£…Python3çš„Appiumåº“
+	å®‰è£…Android SDK
+	å®‰è£…JDK
+	å®‰è£…Appium
+	å®‰è£…æ¨¡æ‹Ÿå™¨MUMU
+äºŒã€	æ¨¡æ‹Ÿå™¨æµ‹è¯•
+è¿æ¥æ¨¡æ‹Ÿå™¨ï¼š
 adb connect 127.0.0.1:7555
-ÌîĞ´ËùĞè¹¦ÄÜ£º
-platformName £ºÉùÃ÷ÊÇios»¹ÊÇAndroidÏµÍ³
-platformVersion£º AndroidÄÚºË°æ±¾ºÅ£¬¿ÉÍ¨¹ıÃüÁîadb shell getprop ro.build.version.release²é¿´
-deviceName £ºÁ¬½ÓµÄÉè±¸Ãû³Æ£¬Í¨¹ıÃüÁîadb devices -lÖĞmodel²é¿´
+å¡«å†™æ‰€éœ€åŠŸèƒ½ï¼š
+platformName ï¼šå£°æ˜æ˜¯iosè¿˜æ˜¯Androidç³»ç»Ÿ
+platformVersionï¼š Androidå†…æ ¸ç‰ˆæœ¬å·ï¼Œå¯é€šè¿‡å‘½ä»¤adb shell getprop ro.build.version.releaseæŸ¥çœ‹
+deviceName ï¼šè¿æ¥çš„è®¾å¤‡åç§°ï¼Œé€šè¿‡å‘½ä»¤adb devices -lä¸­modelæŸ¥çœ‹
  
-appPackage£ºapkµÄ°üÃû
-appActivity£ºapkµÄlauncherActivity£¬Í¨¹ıÃüÁîadb shell dumpsys activity | findstr ¡°mResume¡±²é¿´£¨ĞèÏÈ´ò¿ªÊÖ»úÓ¦ÓÃ£©
+appPackageï¼šapkçš„åŒ…å
+appActivityï¼šapkçš„launcherActivityï¼Œé€šè¿‡å‘½ä»¤adb shell dumpsys activity | findstr â€œmResumeâ€æŸ¥çœ‹ï¼ˆéœ€å…ˆæ‰“å¼€æ‰‹æœºåº”ç”¨ï¼‰
  
-×¢Òâ£ºÌí¼ÓautomationName£ºUiAutomator1
-Æô¶¯»á»°
-ÓÒ²à Selected Element/Ñ¡¶¨µÄÔªËØ ÇøÓòÓĞÈı¸ö°´Å¥
-TAP/µã»÷£ºÖ´ĞĞÑ¡ÖĞÔªËØµÄµã»÷ÊÂ¼ş
-Send Keys/·¢ËÍÃÜÔ¿£ºÎªÎÄ±¾¿òµÈ¶ÔÏó´«Öµ
-Èç¹ûÊÇÎÄ±¾ÊäÈëÔªËØ£¬¾ÍÇå³ıÎÄ±¾
+æ³¨æ„ï¼šæ·»åŠ automationNameï¼šUiAutomator1
+å¯åŠ¨ä¼šè¯
+å³ä¾§ Selected Element/é€‰å®šçš„å…ƒç´  åŒºåŸŸæœ‰ä¸‰ä¸ªæŒ‰é’®
+TAP/ç‚¹å‡»ï¼šæ‰§è¡Œé€‰ä¸­å…ƒç´ çš„ç‚¹å‡»äº‹ä»¶
+Send Keys/å‘é€å¯†é’¥ï¼šä¸ºæ–‡æœ¬æ¡†ç­‰å¯¹è±¡ä¼ å€¼
+å¦‚æœæ˜¯æ–‡æœ¬è¾“å…¥å…ƒç´ ï¼Œå°±æ¸…é™¤æ–‡æœ¬
 
  
-±àĞ´½Å±¾
-´´½¨testcaseÄ¿Â¼£¬´´½¨test_app.py
+ç¼–å†™è„šæœ¬
+åˆ›å»ºtestcaseç›®å½•ï¼Œåˆ›å»ºtest_app.py
 
 import time
 import unittest
@@ -112,25 +114,25 @@ from appium import webdriver
 
 
 class MyTests(unittest.TestCase):
-    # ²âÊÔ¿ªÊ¼Ç°Ö´ĞĞµÄ·½·¨
+    # æµ‹è¯•å¼€å§‹å‰æ‰§è¡Œçš„æ–¹æ³•
     def setUp(self):
-        desired_caps = {'platformName': 'Android', # Æ½Ì¨Ãû³Æ
-                        'platformVersion': '6.0.1',  # ÏµÍ³°æ±¾ºÅ
-                        'deviceName': 'MuMu',  # Éè±¸Ãû³Æ¡£Èç¹ûÊÇÕæ»ú£¬ÔÚ'ÉèÖÃ->¹ØÓÚÊÖ»ú->Éè±¸Ãû³Æ'Àï²é¿´
-                        'appPackage': 'com.youdao.calculator',  # apkµÄ°üÃû
-                        'appActivity': '.activities.MainActivity', # activity Ãû³Æ
+        desired_caps = {'platformName': 'Android', # å¹³å°åç§°
+                        'platformVersion': '6.0.1',  # ç³»ç»Ÿç‰ˆæœ¬å·
+                        'deviceName': 'MuMu',  # è®¾å¤‡åç§°ã€‚å¦‚æœæ˜¯çœŸæœºï¼Œåœ¨'è®¾ç½®->å…³äºæ‰‹æœº->è®¾å¤‡åç§°'é‡ŒæŸ¥çœ‹
+                        'appPackage': 'com.youdao.calculator',  # apkçš„åŒ…å
+                        'appActivity': '.activities.MainActivity', # activity åç§°
                         'automationName':'UiAutomator1'
                         }
-        self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)  # Á¬½ÓAppium
+        self.driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)  # è¿æ¥Appium
         self.driver.implicitly_wait(8)
 
     def test_calculator(self, t=500, n=4):
-        """¼ÆËãÆ÷²âÊÔ"""
+        """è®¡ç®—å™¨æµ‹è¯•"""
         time.sleep(3)
         window = self.driver.get_window_size()
-        x0 = window['width'] * 0.8  # ÆğÊ¼x×ø±ê
-        x1 = window['width'] * 0.2  # ÖÕÖ¹x×ø±ê
-        y = window['height'] * 0.5  # y×ø±ê
+        x0 = window['width'] * 0.8  # èµ·å§‹xåæ ‡
+        x1 = window['width'] * 0.2  # ç»ˆæ­¢xåæ ‡
+        y = window['height'] * 0.5  # yåæ ‡
         for i in range(n):
             self.driver.swipe(x0, y, x1, y, t)
             time.sleep(1)
@@ -145,10 +147,10 @@ class MyTests(unittest.TestCase):
         self.driver.find_element_by_xpath(btn_xpath.format(p='8')).click()
         time.sleep(3)
 
-    # ²âÊÔ½áÊøºóÖ´ĞĞµÄ·½·¨
+    # æµ‹è¯•ç»“æŸåæ‰§è¡Œçš„æ–¹æ³•
     def tearDown(self):
         self.driver.quit()
-´´½¨run.py
+åˆ›å»ºrun.py
 import os
 import time
 import unittest
@@ -165,8 +167,8 @@ if __name__ == "__main__":
     report_name = '{0}/{1}.html'.format(report_dir, now)
 
     with open(report_name, 'wb')as f:
-        runner = HTMLTestRunner(stream=f, title="²âÊÔ±¨¸æ", description="±¾²âÊÔ±¨¸æÄÚÈİ°üº¬³¬¼¶¼ÆËãÆ÷µÄ¼òµ¥²âÊÔ")
+        runner = HTMLTestRunner(stream=f, title="æµ‹è¯•æŠ¥å‘Š", description="æœ¬æµ‹è¯•æŠ¥å‘Šå†…å®¹åŒ…å«è¶…çº§è®¡ç®—å™¨çš„ç®€å•æµ‹è¯•")
         runner.run(discover)
 
 
-×¢Òâ£ºHTMLTestRunnerÓëpython3²»¼æÈİĞèÒªĞŞ¸Ä£¬·½ÄÜÉú³É²âÊÔ±¨¸æ
+æ³¨æ„ï¼šHTMLTestRunnerä¸python3ä¸å…¼å®¹éœ€è¦ä¿®æ”¹ï¼Œæ–¹èƒ½ç”Ÿæˆæµ‹è¯•æŠ¥å‘Š
