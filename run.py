@@ -5,7 +5,7 @@ import unittest
 from HTMLTestRunner import HTMLTestRunner
 
 test_dir = ''
-discover = unittest.defaultTestLoader.discover(start_dir='./testcase', pattern="test*.py")
+discover = unittest.defaultTestLoader.discover(start_dir='./testcase', pattern="test_app.py")
 
 if __name__ == "__main__":
     report_dir = './test_report'
